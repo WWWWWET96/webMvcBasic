@@ -1,9 +1,11 @@
 package HELLOz.hello.springz.repository;
 
 import HELLOz.hello.springz.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>(); // 값 저장하기 위한 map
