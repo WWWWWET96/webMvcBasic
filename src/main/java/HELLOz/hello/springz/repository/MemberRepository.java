@@ -1,7 +1,6 @@
 package HELLOz.hello.springz.repository;
 
 import HELLOz.hello.springz.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
